@@ -420,7 +420,7 @@
             }
         }
 
-        const ConnectedApp = connect((state) => ({
+        const ConnectedApp = ReactRedux.connect((state) => ({
             loading: state.loading
         }))(App)
 
